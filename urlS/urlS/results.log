@@ -1,0 +1,73 @@
+2015-02-07 04:09:14+0200 [scrapy] INFO: ------------>Running reactor
+2015-02-07 04:09:17+0200 [-] ERROR: Traceback (most recent call last):
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1314, in main
+2015-02-07 04:09:17+0200 [-] ERROR:     pdb._runscript(mainpyfile)
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1233, in _runscript
+2015-02-07 04:09:17+0200 [-] ERROR:     self.run(statement)
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/usr/lib/python2.7/bdb.py", line 400, in run
+2015-02-07 04:09:17+0200 [-] ERROR:     exec cmd in globals, locals
+2015-02-07 04:09:17+0200 [-] ERROR:   File "<string>", line 1, in <module>
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/home/kostas/AraxniProject/main.py", line 47, in <module>
+2015-02-07 04:09:17+0200 [-] ERROR:     reactor.run()
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1191, in run
+2015-02-07 04:09:17+0200 [-] ERROR:     self.startRunning(installSignalHandlers=installSignalHandlers)
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 1171, in startRunning
+2015-02-07 04:09:17+0200 [-] ERROR:     ReactorBase.startRunning(self)
+2015-02-07 04:09:17+0200 [-] ERROR:   File "/usr/lib/python2.7/dist-packages/twisted/internet/base.py", line 683, in startRunning
+2015-02-07 04:09:17+0200 [-] ERROR:     raise error.ReactorNotRestartable()
+2015-02-07 04:09:17+0200 [-] ERROR: ReactorNotRestartable
+2015-02-07 04:09:50+0200 [-] ERROR: Traceback (most recent call last):
+2015-02-07 04:09:50+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1314, in main
+2015-02-07 04:09:50+0200 [-] ERROR:     pdb._runscript(mainpyfile)
+2015-02-07 04:09:50+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1233, in _runscript
+2015-02-07 04:09:50+0200 [-] ERROR:     self.run(statement)
+2015-02-07 04:09:50+0200 [-] ERROR:   File "/usr/lib/python2.7/bdb.py", line 400, in run
+2015-02-07 04:09:50+0200 [-] ERROR:     exec cmd in globals, locals
+2015-02-07 04:09:50+0200 [-] ERROR:   File "<string>", line 1, in <module>
+2015-02-07 04:09:50+0200 [-] ERROR:   File "/home/kostas/AraxniProject/main.py", line 32, in <module>
+2015-02-07 04:09:50+0200 [-] ERROR:     os.chdir("./urlS")
+2015-02-07 04:09:50+0200 [-] ERROR: OSError: [Errno 2] No such file or directory: './urlS'
+2015-02-07 04:10:03+0200 [-] ERROR: Traceback (most recent call last):
+2015-02-07 04:10:03+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1314, in main
+2015-02-07 04:10:03+0200 [-] ERROR:     pdb._runscript(mainpyfile)
+2015-02-07 04:10:03+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1233, in _runscript
+2015-02-07 04:10:03+0200 [-] ERROR:     self.run(statement)
+2015-02-07 04:10:03+0200 [-] ERROR:   File "/usr/lib/python2.7/bdb.py", line 400, in run
+2015-02-07 04:10:03+0200 [-] ERROR:     exec cmd in globals, locals
+2015-02-07 04:10:03+0200 [-] ERROR:   File "<string>", line 1, in <module>
+2015-02-07 04:10:03+0200 [-] ERROR:   File "/home/kostas/AraxniProject/main.py", line 32, in <module>
+2015-02-07 04:10:03+0200 [-] ERROR:     os.chdir("./urlS")
+2015-02-07 04:10:03+0200 [-] ERROR: OSError: [Errno 2] No such file or directory: './urlS'
+2015-02-07 04:10:08+0200 [-] ERROR: Traceback (most recent call last):
+2015-02-07 04:10:08+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1314, in main
+2015-02-07 04:10:08+0200 [-] ERROR:     pdb._runscript(mainpyfile)
+2015-02-07 04:10:08+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1233, in _runscript
+2015-02-07 04:10:08+0200 [-] ERROR:     self.run(statement)
+2015-02-07 04:10:08+0200 [-] ERROR:   File "/usr/lib/python2.7/bdb.py", line 400, in run
+2015-02-07 04:10:08+0200 [-] ERROR:     exec cmd in globals, locals
+2015-02-07 04:10:08+0200 [-] ERROR:   File "<string>", line 1, in <module>
+2015-02-07 04:10:08+0200 [-] ERROR:   File "/home/kostas/AraxniProject/main.py", line 32, in <module>
+2015-02-07 04:10:08+0200 [-] ERROR:     os.chdir("./urlS")
+2015-02-07 04:10:08+0200 [-] ERROR: OSError: [Errno 2] No such file or directory: './urlS'
+2015-02-07 04:10:11+0200 [-] ERROR: Traceback (most recent call last):
+2015-02-07 04:10:11+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1314, in main
+2015-02-07 04:10:11+0200 [-] ERROR:     pdb._runscript(mainpyfile)
+2015-02-07 04:10:11+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1233, in _runscript
+2015-02-07 04:10:11+0200 [-] ERROR:     self.run(statement)
+2015-02-07 04:10:11+0200 [-] ERROR:   File "/usr/lib/python2.7/bdb.py", line 400, in run
+2015-02-07 04:10:11+0200 [-] ERROR:     exec cmd in globals, locals
+2015-02-07 04:10:11+0200 [-] ERROR:   File "<string>", line 1, in <module>
+2015-02-07 04:10:11+0200 [-] ERROR:   File "/home/kostas/AraxniProject/main.py", line 32, in <module>
+2015-02-07 04:10:11+0200 [-] ERROR:     os.chdir("./urlS")
+2015-02-07 04:10:11+0200 [-] ERROR: OSError: [Errno 2] No such file or directory: './urlS'
+2015-02-07 04:10:16+0200 [-] ERROR: Traceback (most recent call last):
+2015-02-07 04:10:16+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1314, in main
+2015-02-07 04:10:16+0200 [-] ERROR:     pdb._runscript(mainpyfile)
+2015-02-07 04:10:16+0200 [-] ERROR:   File "/usr/lib/python2.7/pdb.py", line 1233, in _runscript
+2015-02-07 04:10:16+0200 [-] ERROR:     self.run(statement)
+2015-02-07 04:10:16+0200 [-] ERROR:   File "/usr/lib/python2.7/bdb.py", line 400, in run
+2015-02-07 04:10:16+0200 [-] ERROR:     exec cmd in globals, locals
+2015-02-07 04:10:16+0200 [-] ERROR:   File "<string>", line 1, in <module>
+2015-02-07 04:10:16+0200 [-] ERROR:   File "/home/kostas/AraxniProject/main.py", line 32, in <module>
+2015-02-07 04:10:16+0200 [-] ERROR:     os.chdir("./urlS")
+2015-02-07 04:10:16+0200 [-] ERROR: OSError: [Errno 2] No such file or directory: './urlS'
